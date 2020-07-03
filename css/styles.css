@@ -46,7 +46,7 @@ hr{
 }
 /********************************** CLASS SELECTORS ***********************/
 .cv_picture{
-  width: 30%;
+  width: 25%;
 }
 
 .profile{
@@ -56,7 +56,7 @@ hr{
 
 .description{
   position: relative;
-  padding: 80px 400px;
+  padding: 4rem 17rem;
 }
 
 .parragraph_description{
@@ -68,7 +68,7 @@ hr{
   background-color: #f7f7f7;
   height: 32.7rem;
   position: relative;
-  padding-top: 100px;
+  padding-top: 3rem;
 }
 
 .middle-container{
