@@ -1,0 +1,192 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 20px auto 0 auto;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 3rem; /** 100% equivale a 16 de font***/
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2{
+  margin: 10px auto 0 auto;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 2rem; /*20 px*/
+  color: #11999E;
+  font-weight: normal;
+}
+
+h3{
+  margin: 10px auto 0 auto;
+  font-family: 'Gochi Hand', cursive;
+  color: #66BFBF;
+}
+
+p{
+  font-family: "Verdana", Times, serif;
+}
+
+a{
+  font-family: 'Merriweather', serif;
+  color: #11999E;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 0.5rem;
+  width: 8%;
+  margin: 5rem auto;
+  position: relative;
+}
+/********************************** CLASS SELECTORS ***********************/
+.cv_picture{
+  width: 30%;
+}
+
+.profile{
+  height: 30rem;
+  position: relative;
+}
+
+.description{
+  position: relative;
+  padding: 80px 400px;
+}
+
+.parragraph_description{
+  text-align: justify;
+  position: relative;
+}
+
+.top-container{
+  background-color: #f7f7f7;
+  height: 32.7rem;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  display: block;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 80px auto;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.microsoft{
+  float: right;
+  margin-left: 20px;
+}
+
+.computer{
+  float: left;
+  margin-right: 30px;
+}
+
+.frase-contact{
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.bottom-container{
+  height: 6rem;
+  background-color: #66BFBF;
+  margin: 1rem auto 1rem;
+  padding: 2rem;
+}
+
+.marca{
+  color: #EAF6F6;
+  margin: 2rem 0;
+  font-size: 1rem;
+}
+
+.footer-link{
+  color: #11999E;
+  margin: 1rem 1rem;
+}
+
+.footer-link:link{
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  text-decoration: underline;
+}
+
+.contact-me{
+  height: 18rem;
+  padding: 0 4rem 4rem;
+  line-height: 2;
+}
+
+.btn{
+  margin: 3rem auto 0;
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: 100;
+  padding: 17px;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover{
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+/**
+.computer-row-description{
+  clear: left;
+}
+
+.office-row-description{
+  clear: right;
+}**/
